@@ -1,0 +1,23 @@
+{
+  "name": "rag-workflow-nodejs",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Node.js port of the RAG Workflow (LangChain.js + OpenAI)",
+  "scripts": {
+    "prepare": "node -e \"console.log('Ready to install deps')\"",
+    "demo:chain:lcel": "node src/demos/demo_chain_lcel.js",
+    "demo:chain:basic": "node src/demos/demo_chain_basic.js",
+    "demo:multiturn": "node src/demos/demo_multiturn.js",
+    "demo:validation": "node src/demos/demo_validation.js"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.3.0",
+    "@langchain/openai": "^0.3.0",
+    "@langchain/community": "^0.3.0",
+    "dotenv": "^16.4.5"
+  },
+  "overrides": {
+    "better-sqlite3": "11.8.1"
+  }
+}

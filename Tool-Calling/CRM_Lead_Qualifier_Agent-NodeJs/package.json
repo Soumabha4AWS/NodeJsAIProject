@@ -1,0 +1,13 @@
+{
+  "name": "crm-lead-qualifier-agent",
+  "version": "1.0.0",
+  "description": "Node.js conversion of the CRM Lead Qualifier Agent.",
+  "main": "crmLeadQlfrMain.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node crmLeadQlfrMain.js"
+  },
+  "dependencies": {
+    "openai": "^4.0.0"
+  }
+}

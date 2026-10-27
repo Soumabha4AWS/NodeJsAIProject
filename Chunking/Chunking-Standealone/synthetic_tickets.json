@@ -1,0 +1,42 @@
+[
+  {
+    "ticket_id": "ticket-1",
+    "title": "Cannot log in after password reset",
+    "category": "Authentication",
+    "priority": "High",
+    "description": "After resetting my password, I am unable to sign in from the web app. The system says the password is invalid even though I used the new password.",
+    "resolution": "Reset the user's session and verify the password reset token was applied correctly."
+  },
+  {
+    "ticket_id": "ticket-2",
+    "title": "MFA code never arrives",
+    "category": "Authentication",
+    "priority": "Medium",
+    "description": "The MFA code is not arriving by SMS. I can sign in fine without MFA, but the second factor is failing repeatedly.",
+    "resolution": "Confirmed the SMS gateway issue and advised the customer to use backup codes until the provider recovered."
+  },
+  {
+    "ticket_id": "ticket-3",
+    "title": "Database connection timeouts",
+    "category": "Database",
+    "priority": "High",
+    "description": "Our reporting jobs are failing with frequent connection timeouts to the production database. The errors appear during peak traffic windows.",
+    "resolution": "Increased connection pool limits and reviewed query plans to remove lock contention."
+  },
+  {
+    "ticket_id": "ticket-4",
+    "title": "Billing invoice missing from portal",
+    "category": "Billing",
+    "priority": "Low",
+    "description": "A customer cannot see the latest invoice in the billing portal even though the payment was processed successfully.",
+    "resolution": "Re-synced invoice records and confirmed the invoice status in the billing queue."
+  },
+  {
+    "ticket_id": "ticket-5",
+    "title": "API returns 500 for upload requests",
+    "category": "API",
+    "priority": "High",
+    "description": "Upload requests to the content API start returning HTTP 500 after a recent release. The failure occurs when the payload exceeds a few megabytes.",
+    "resolution": "Rolled back the recent upload handler patch and adjusted request size validation."
+  }
+]

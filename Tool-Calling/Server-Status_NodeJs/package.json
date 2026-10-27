@@ -1,0 +1,17 @@
+{
+  "name": "server-status-monitor",
+  "version": "1.0.0",
+  "description": "Server status monitoring system using OpenAI function calling",
+  "type": "module",
+  "main": "serverStatusMain.js",
+  "scripts": {
+    "start": "node serverStatusMain.js",
+    "dev": "node --watch serverStatusMain.js"
+  },
+  "dependencies": {
+    "openai": "^4.52.0"
+  },
+  "keywords": ["openai", "monitoring", "server-status"],
+  "author": "",
+  "license": "ISC"
+}

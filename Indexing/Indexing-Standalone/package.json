@@ -1,0 +1,18 @@
+{
+  "name": "indexing-node-llamaindex",
+  "version": "0.1.0",
+  "description": "Node.js port of the LlamaIndex Python examples",
+  "main": "vector-index.js",
+  "type": "commonjs",
+  "scripts": {
+    "vector": "node vector-index.js",
+    "summary": "node summary-index.js",
+    "keyword": "node keyword-index.js",
+    "hybrid": "node hybrid-index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "llamaindex": "^0.12.1",
+    "openai": "^4.4.0"
+  }
+}

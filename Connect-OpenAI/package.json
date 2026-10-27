@@ -1,0 +1,16 @@
+{
+  "name": "connect-openai",
+  "version": "1.0.0",
+  "description": "Node.js wrapper for OpenAI chat completion using gpt-4o-mini.",
+  "main": "openaiConnectMain.js",
+  "scripts": {
+    "start": "node openaiConnectMain.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "openai": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

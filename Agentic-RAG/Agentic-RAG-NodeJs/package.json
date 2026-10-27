@@ -1,0 +1,19 @@
+{
+  "name": "agentic-rag-nodejs",
+  "version": "0.1.0",
+  "description": "Agentic RAG demo (Node.js) with OpenAI function-calling and in-memory vector search",
+  "type": "module",
+  "main": "src/demo.js",
+  "scripts": {
+    "start": "node src/demo.js",
+    "demo": "node src/demo.js"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.3.8",
+    "@langchain/openai": "^0.3.5",
+    "dotenv": "^16.4.5"
+  }
+}

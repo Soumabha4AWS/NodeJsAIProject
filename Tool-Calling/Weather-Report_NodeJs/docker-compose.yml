@@ -1,0 +1,14 @@
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - WEATHER_API_KEY=${WEATHER_API_KEY}
+      - WEATHER_API_HOST=${WEATHER_API_HOST}
+    volumes:
+      - .:/app
+      - /app/node_modules
+    command: npm run start:dev
